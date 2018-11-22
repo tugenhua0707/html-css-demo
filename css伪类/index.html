@@ -1,0 +1,90 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<style type="text/css" id="colorFlipFlop">
+  * {margin:0; padding: 0;}
+  .operating-report-container {
+    position: relative;
+    width: 1000px;
+    margin: 30px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+  }
+  .operating-report-container .listnav {
+    margin-left: 14px;
+    margin-top: 24px;
+    overflow: hidden;
+  }
+  .operating-report-container .listnav li {
+    float: left;
+    width: 240px;
+    margin-left: 33px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .operating-report-container .listnav li .pic {
+    width: 240px;
+    height: 160px;
+    background: #f6f6f6;
+  }
+  .operating-report-container .listnav li .desc {
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    color: #616161;
+    margin-top: 8px;
+  }
+  .operating-report-container .tab-content {
+    margin: 24px 30px;
+    border-top: 1px solid #e6e5e5;
+    position: relative;
+  }
+  .operating-report-container .tab-content:before, 
+  .operating-report-container .tab-content:after {
+    bottom: 100%;
+    left: 131px;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  .operating-report-container .tab-content:before {
+    border-bottom-color: #e6e5e5;
+    border-width: 11px;
+    margin-left: -11px;
+  }
+  .operating-report-container .tab-content:after {
+    border-bottom-color: #fff; 
+    border-width: 10px;
+    margin-left: -10px;
+  }
+</style>
+<script type="text/javascript" src="./js/jquery.js"></script>
+</head>
+<body>    
+    <div class="operating-report-container" id="operating-report">
+      <ul class="listnav">
+        <li>
+          <div class="pic"></div>
+          <div class="desc">铜板街2018年度各月运营报告</div>
+        </li>
+        <li>
+          <div class="pic"></div>
+          <div class="desc">铜板街2018年度各月运营报告</div>
+        </li>
+        <li>
+          <div class="pic"></div>
+          <div class="desc">铜板街2018年度各月运营报告</div>
+        </li>
+      </ul>
+      <div class="tab-content" id="tab-content">
+        
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>
