@@ -47,7 +47,7 @@
   pointer-events: none;
 }
 .operating-report-container .tab-content:before {
-  border-bottom-color: #e6e5e5;
+  border-bottom-color: red;
   border-width: 11px;
   margin-left: -11px;
 }
